@@ -1,0 +1,161 @@
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        #header {
+            background-color: aqua;
+            height: 10vh;
+        }
+
+        #header-left {
+            background-color: antiquewhite;
+            height: 100%;
+            width: 30%;
+            float: left;
+        }
+
+        #header-center {
+            background-color: cadetblue;
+            width: 40%;
+            height: 100%;
+            float: left;
+            text-align: center;
+            text-transform: uppercase;
+            border-radius: 30px;
+            color: khaki;
+            border: 2px solid khaki;
+        }
+
+        #header-right {
+            background-color: antiquewhite;
+            height: 100%;
+        }
+
+        #content {
+            background-color: burlywood;
+            height: 80vh;
+            width: 100%;
+            overflow-x: hidden;
+        }
+
+        #footer {
+            background-color: cadetblue;
+            height: 10vh;
+        }
+
+        .block {
+            display: inline-block;
+            padding: 9px;
+            margin-top: 8px;
+        }
+
+        pre {
+            text-align: center;
+            color: khaki;
+            padding: 20px;
+        }
+
+        a {
+            text-decoration: none;
+            color: khaki;
+        }
+
+
+        input[type="text"] {
+            padding: 10px;
+            margin: 10px;
+            width: 300px;
+            border-radius: 10px;
+            border: 3px solid khaki;
+
+        }
+
+        button {
+            border-radius: 20px;
+            border: 5px solid khaki;
+            text-transform: uppercase;
+            padding: 10px;
+            width: 200px;
+            color: cadetblue;
+        }
+
+        .box {
+            background-color: cadetblue;
+            height: 400px;
+            width: 400px;
+            border-radius: 30px;
+            border: 3px solid khaki;
+            position: absolute;
+            left: 420px;
+            top: 100px;
+        }
+
+        .signpg-intype {
+            position: relative;
+            left: 30px;
+            top: 15px;
+        }
+
+        .input-type {
+            position: relative;
+            top: 60px;
+            left: 30px;
+        }
+
+        #content-right {
+            background-color: burlywood;
+        }
+
+        .logpg-btn {
+            position: relative;
+            top: 80px;
+            left: 90px;
+            margin: 10px;
+        }
+
+        .signpg-btn {
+            position: relative;
+            width: 200px;
+            left: 90px;
+            margin: 17px;
+        }
+
+        .gall-block {
+            background-color: cadetblue;
+            height: 200px;
+            width: 20%;
+            border-radius: 30px;
+            border: 3px solid khaki;
+            position: relative;
+            float: right;
+            margin: 4%;
+            right:85px;
+        }      
+        #contact-right{
+            width: 50%;
+            height: 80vh;
+        }
+        #contact-left{
+            width: 50%;
+            height: 80vh;
+            background-color: darkgray;
+            float: right;
+        }
+        #cont-btn{
+            position: relative;
+            top: 120px;
+            left: 180px;
+        }
+
+        #contact-a{
+            text-decoration: none;
+            color: cadetblue;
+        }
+        #cont-pre{
+            position: relative;
+            top: 100px;
+            right: 40px;
+            font-size: 18px;
+            color: cadetblue;
+        }
