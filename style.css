@@ -18,13 +18,13 @@
         #header-center {
             background-color: cadetblue;
             width: 40%;
-            height: 100%;
+            height: 92%;
             float: left;
             text-align: center;
             text-transform: uppercase;
             border-radius: 30px;
             color: khaki;
-            border: 2px solid khaki;
+            border: 3px solid khaki;
         }
 
         #header-right {
@@ -46,7 +46,7 @@
 
         .block {
             display: inline-block;
-            padding: 9px;
+            padding: 15px;
             margin-top: 8px;
         }
 
@@ -54,11 +54,13 @@
             text-align: center;
             color: khaki;
             padding: 20px;
+            font-size: 17px;
         }
 
         a {
             text-decoration: none;
             color: khaki;
+            font-size: 18px;
         }
 
 
@@ -87,8 +89,8 @@
             border-radius: 30px;
             border: 3px solid khaki;
             position: absolute;
-            left: 420px;
-            top: 100px;
+            left: 570px;
+            top: 20vh;
         }
 
         .signpg-intype {
@@ -116,9 +118,8 @@
 
         .signpg-btn {
             position: relative;
-            width: 200px;
-            left: 90px;
-            margin: 17px;
+            left: 80px;
+            margin: 23px;
         }
 
         .gall-block {
@@ -141,11 +142,12 @@
             height: 80vh;
             background-color: darkgray;
             float: right;
+            overflow-y: hidden;
         }
         #cont-btn{
             position: relative;
-            top: 120px;
-            left: 180px;
+            top: 200px;
+            left: 220px;
         }
 
         #contact-a{
@@ -154,8 +156,9 @@
         }
         #cont-pre{
             position: relative;
-            top: 100px;
-            right: 40px;
-            font-size: 18px;
+            top: 150px;
+            left: 40px;
+            font-size: 25px;
             color: cadetblue;
+            text-align: justify;
         }
